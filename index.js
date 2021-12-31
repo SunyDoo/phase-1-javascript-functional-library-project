@@ -62,8 +62,7 @@ function myLast(collection, n=1){
 function myKeys(object){
     let array = []
     for (let key in object) {
-      array.push(key)   
-        
+      array.push(key)       
      }
     return array
 }
